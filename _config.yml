@@ -84,7 +84,8 @@ avatar: /assets/img/1F5C7292-1E39-4BD0-A0A5-A4E31F593D12.jpeg
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: 
+  enabled: true
 
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
